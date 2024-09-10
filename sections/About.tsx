@@ -40,6 +40,22 @@ const toolboxItems = [
     title: "Github",
     iconType: GithubIcon,
   },
+  {
+    title: "JavaScript",
+    iconType: JavascriptIcon,
+  },
+  {
+    title: "HTML5",
+    iconType: HTMLIcon,
+  },
+  {
+    title: "CSS3",
+    iconType: CssIcon,
+  },
+  {
+    title: "React",
+    iconType: ReactIcon,
+  },
 ];
 
 const hobbies = [
@@ -78,12 +94,12 @@ export const AboutSection = () => {
           eyebrow="About Me"
           description="Learn more about who I am, what I do and who inspires me"
         ></SectionHeader>
-        <div className="mt-20">
+        <div className="mt-20 flex flex-col gap-8">
           <Card className="h-[320px]">
             <CardHeader
               title="My Reads"
               description=" Explore the books shaping my perspectives."
-            ></CardHeader>
+            />
 
             <div className="w-40 mx-auto mt-8">
               <Image src={bookImage} alt="Book cover"></Image>
@@ -94,15 +110,19 @@ export const AboutSection = () => {
               title="My Toolbox"
               description="Explore the technologies and tools that I'm using."
               className="px-6 pt-6"
-            ></CardHeader>
+            />
             <ToolboxItems items={toolboxItems} className="mt-6"></ToolboxItems>
-            <ToolboxItems items={toolboxItems} className="mt-6"></ToolboxItems>
+            <ToolboxItems
+              items={toolboxItems}
+              className="mt-6"
+              itemsWrapperClassName="-translate-x-1/2"
+            ></ToolboxItems>
           </Card>
-          <Card >
+          <Card>
             <CardHeader
               title="Beyond the Code"
               description="Explore my interests and hobbies beyond the digital realm"
-            ></CardHeader>
+            />
             <div>
               {hobbies.map((hobby) => (
                 <div key={hobby.title}>
