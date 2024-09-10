@@ -111,16 +111,16 @@ const hobbies = [
 
 export const AboutSection = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 lg:py-28">
       <div className="container">
         <SectionHeader
           title="A Glimpse Into My World"
           eyebrow="About Me"
-          description="Learn more about who I am, what I do and who inspires me"
+          description="Learn more about who I am, what I do, and what inspires me."
         ></SectionHeader>
         <div className="mt-20 flex flex-col gap-8">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-5 ">
-            <Card className="h-[320px] md:col-span-2">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3 ">
+            <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
                 title="My Reads"
                 description=" Explore the books shaping my perspectives."
@@ -130,7 +130,7 @@ export const AboutSection = () => {
                 <Image src={bookImage} alt="Book cover"></Image>
               </div>
             </Card>
-            <Card className="h-[320px]  md:col-span-3">
+            <Card className="h-[320px]  md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
                 description="Explore the technologies and tools that I'm using."
@@ -144,8 +144,8 @@ export const AboutSection = () => {
               ></ToolboxItems>
             </Card>
           </div>
-          <div className="grid gap-8 grid-cols-1 md:grid-cols-5">
-            <Card className="h-[320px] p-0 flex flex-col col-span-3  ">
+          <div className="grid gap-8 grid-cols-1 md:grid-cols-5 lg:grid-cols-3">
+            <Card className="h-[320px] p-0 flex flex-col md:col-span-3  lg:col-span-2 ">
               <CardHeader
                 title="Beyond the Code"
                 description="Explore my interests and hobbies beyond the digital realm"
@@ -169,7 +169,7 @@ export const AboutSection = () => {
                 ))}
               </div>
             </Card>
-            <Card className="h-[320px] p-0 col-span-2 relative">
+            <Card className="h-[320px] p-0 md:col-span-2 relative lg:col-span-1">
               <Image
                 src={mapImage}
                 alt="map"
