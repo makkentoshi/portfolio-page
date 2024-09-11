@@ -79,11 +79,11 @@ export const HeroSection = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-3  ">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-5 h-12 rounded-xl ">
+          <button className="inline-flex items-center gap-2 border border-white/15 px-5 h-12 rounded-xl cursor-pointer z-10 ">
             <span className="font-semibold">Explore My Work</span>
             <ArrowSign className="w-4 h-4"></ArrowSign>
           </button>
-          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 sm:px-5 px-7 rounded-xl">
+          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 sm:px-5 px-7 rounded-xl cursor-pointer z-10">
             <span>
               <Image src={WaveEmoji} alt="wave" width={20} height={20}></Image>
             </span>
