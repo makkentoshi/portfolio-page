@@ -78,7 +78,7 @@ export const HeroSection = () => {
             web applications. Let's discuss your next project
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8  ">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-3  ">
           <button className="inline-flex items-center gap-2 border border-white/15 px-5 h-12 rounded-xl ">
             <span className="font-semibold">Explore My Work</span>
             <ArrowSign className="w-4 h-4"></ArrowSign>
