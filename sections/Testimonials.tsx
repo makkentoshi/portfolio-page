@@ -12,13 +12,13 @@ const testimonials = [
   {
     name: "Alex Turner",
     position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    text: "Mark was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Anna",
+    position: "Head of Restaurant @ Gosti ( Pavlodar )",
+    text: "Working with Mark was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website of menu of our restaurant has exceeded our expectations.",
     avatar: memojiAvatar2,
   },
   {

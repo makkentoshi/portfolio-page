@@ -60,21 +60,27 @@ const toolboxItems = [
 
 const hobbies = [
   {
-    title: "Painting",
+    title: "Designer",
     emoji: "🎨",
     left: "5%",
     top: "5%",
   },
   {
-    title: "Game Dev",
+    title: "Roblox Dev",
     emoji: "🕹",
     left: "50%",
     top: "5%",
   },
   {
+    title: "Blog",
+    emoji: "💻",
+    left: "77%",
+    top: "5%",
+  },
+  {
     title: "Chess",
     emoji: "♟",
-    left: "10%",
+    left: "15%",
     top: "35%",
   },
   {
@@ -102,12 +108,25 @@ const hobbies = [
     top: "20%",
   },
   {
-    title: "Instagram shop",
+    title: "Clothing shop",
     emoji: "💼",
     left: "5%",
     top: "65%",
   },
+  {
+    title: "Youtube Channel",
+    emoji: "📁",
+    left: "35%",
+    top: "63%",
+  },
+  {
+    title: "Olympiad",
+    emoji: "🏆",
+    left: "67%",
+    top: "65%",
+  },
 ];
+
 
 export const AboutSection = () => {
   return (

@@ -3,15 +3,16 @@ import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "YouTube",
-    href: "",
+    href: "https://www.youtube.com/@MarkIsCoding",
   },
   {
     title: "Twitter",
-    href: "",
+    href: "https://x.com/makkentosh1",
   },
   {
+
     title: "Instagram",
-    href: "",
+    href: "https://www.instagram.com/makkentosh1/",
   },
   {
     title: "LinkedIn",
