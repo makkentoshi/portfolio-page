@@ -18,6 +18,10 @@ const footerLinks = [
     title: "LinkedIn",
     href: "",
   },
+  {
+    title: "Github",
+    href: "https://github.com/makkentoshi",
+  },
 ];
 
 export const Footer = () => {
